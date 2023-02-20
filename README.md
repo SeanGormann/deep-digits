@@ -14,6 +14,7 @@ The model was then evaluated on the test set and accuracy was recorded. Even wit
 Updated the repo with an implementation of a CNN. It was quite interesting to see how the abstraction of features through kernel filters impacted the learning process. The training was seemingly immediately improved and converged to an extremely high accuracy (99.5%!) after the same 10 epochs as the MLP. That being said the model had 10x the amount of parameters and took much longer to train. I also implemented methods to save the model and record it's accuracy in a more automated and efficient way. 
 
 Loss:
+
 ![CNN-loss-over-time](https://user-images.githubusercontent.com/100109163/220102930-79ce8d58-a24f-4398-a776-603c657d2d62.png)
 
 
